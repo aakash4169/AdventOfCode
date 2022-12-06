@@ -13,4 +13,6 @@ AdventOfCode.Day4.Puzzle1.Puzzle.Solution();
 AdventOfCode.Day4.Puzzle2.Puzzle.Solution();
 AdventOfCode.Day5.Puzzle1.Puzzle.Solution();
 AdventOfCode.Day5.Puzzle2.Puzzle.Solution();
+AdventOfCode.Day6.Puzzle1.Puzzle.Solution();
+AdventOfCode.Day6.Puzzle2.Puzzle.Solution();
 

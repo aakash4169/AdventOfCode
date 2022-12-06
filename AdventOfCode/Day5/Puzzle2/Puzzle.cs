@@ -38,8 +38,9 @@ namespace AdventOfCode.Day5.Puzzle2
         }
         public static void Solution()
         {
+        
             Stack<char> tempStack = new Stack<char>();
-            foreach (string line in File.ReadLines(@"C:\Users\akki4\source\repos\AdventOfCode\AdventOfCode\Day5\Puzzle1\input.txt"))
+            foreach (string line in File.ReadLines(@"..\..\..\..\AdventOfCode\Day5\Puzzle2\input.txt"))
             {
                 string[] input = line.Split(' ');
                
@@ -73,7 +74,7 @@ namespace AdventOfCode.Day5.Puzzle2
             Console.Write(myStack6.Peek());
             Console.Write(myStack7.Peek());
             Console.Write(myStack8.Peek());
-            Console.Write(myStack9.Peek());
+            Console.WriteLine(myStack9.Peek());
         }
     }
 }
